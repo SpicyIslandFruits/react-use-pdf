@@ -1,6 +1,7 @@
 {
   "name": "react-use-pdf",
   "version": "1.0.2",
+  "homepage": "https://SpicyIslandFruits.github.io/react-use-pdf/",
   "author": "SpicyIslandFruits",
   "license": "MIT",
   "description": "Use PDFs in your React app as easily as if they were components.",
@@ -10,8 +11,9 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -p tsconfig.build.json",
-    "demo": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
@@ -22,7 +24,7 @@
     "vite": "^4.0.0"
   },
   "files": [
-    "./dist/*"
+    "./build/*"
   ],
   "peerDependencies": {
     "pdfjs-dist": "^3.1.81",

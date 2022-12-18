@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "outDir": "dist",
+    "outDir": "build",
     "useDefineForClassFields": true,
     "lib": [
       "DOM",
