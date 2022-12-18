@@ -12,7 +12,7 @@
     "dev": "vite --host",
     "build": "tsc -p tsconfig.build.json",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "tsc && vite build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
@@ -35,5 +35,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^8.4.5"
+  },
+  "keywords": [
+    "pdf",
+    "pdf-viewer",
+    "react",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spicyislandfruits/react-use-pdf.git"
   }
 }
