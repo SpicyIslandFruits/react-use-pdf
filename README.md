@@ -32,7 +32,7 @@ export function Simple() {
 
 Combined with swiper, even pdfs with hundreds of pages can be displayed seamlessly.
 
-This example also specifies the style to fit the pdf to screen while maintaining aspect ratio.
+[This example](https://spicyislandfruits.github.io/react-use-pdf/) also specifies the style to fit the pdf to screen while maintaining aspect ratio.
 
 ```typescript jsx
 import usePDF from "../react-use-pdf";
