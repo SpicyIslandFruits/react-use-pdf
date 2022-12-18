@@ -1,6 +1,6 @@
 {
   "name": "react-use-pdf",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "author": "SpicyIslandFruits",
   "license": "MIT",
   "description": "Use PDFs in your React app as easily as if they were components.",

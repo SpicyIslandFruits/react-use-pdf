@@ -53,7 +53,6 @@ function Canvas(props: CanvasProps) {
 type PDF = {
     canvas(props: CanvasProps): ReactElement,
     props: CanvasProps,
-    pageNumber: number,
 }[]
 
 function usePDF(src: string) {
@@ -69,7 +68,6 @@ function usePDF(src: string) {
                     return {
                         canvas: Canvas,
                         props: {page: document.getPage(pageNumber)},
-                        pageNumber: pageNumber,
                     }
                 })
                 setPdf(pdf)
