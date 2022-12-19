@@ -16,7 +16,7 @@ Add React-Use-PDF to your project by executing `npm install react-use-pdf` or `y
 Here's the simplest example of usage.
 
 ```typescript jsx
-import usePDF from "../react-use-pdf";
+import usePDF from "react-use-pdf/build";
 
 export function Simple() {
     const pdf = usePDF('./sample.pdf')
@@ -32,10 +32,11 @@ export function Simple() {
 
 Combined with swiper, even pdfs with hundreds of pages can be displayed seamlessly.
 
-[This example](https://spicyislandfruits.github.io/react-use-pdf/) also specifies the style to fit the pdf to screen while maintaining aspect ratio.
+[This example](https://spicyislandfruits.github.io/react-use-pdf/) also specifies the style to fit the pdf to screen
+while maintaining aspect ratio.
 
 ```typescript jsx
-import usePDF from "../react-use-pdf";
+import usePDF from "react-use-pdf/build";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Virtual} from 'swiper';
 
